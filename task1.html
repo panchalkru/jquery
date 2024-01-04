@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+
+            $("#show").click(function () {
+                $("div").show(5000);
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <div style="display: none;">
+        <img src="img/pexels-craig-dennis-205421.jpg" alt="" style="height: 200px;width: 200px;">
+        <img src="img/2.jpg" alt="" style="height: 200px;width: 200px;">
+        <img src="img/3.avif" alt="" style="height: 200px;width: 200px;">
+        <img src="img/4.jpg" alt="" style="height: 200px;width: 200px;">
+        <img src="img/5.jfif" alt="" style="height: 200px;width: 200px;">
+    </div>
+
+    <button id="hide">HIDE</button>
+    <button id="show">SHOW</button>
+
+</body>
+
+</html>
