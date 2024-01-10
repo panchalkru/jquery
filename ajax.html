@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("#first").click(function(){
+            $("#div1").load("hitech.txt");
+          });
+        });
+        $(document).ready(function(){
+          $("#sec").click(function(){
+            $("#div2").load("task1.html");
+          });
+        });
+        $(document).ready(function(){
+          $("#thi").click(function(){
+            $("#div3").load("img.txt");
+          });
+        });
+        $(document).ready(function(){
+          $("#four").click(function(){
+            $("#div4").load("img2.txt");
+          });
+        });
+
+        $(document).ready(function(){
+         
+            $("#menu").load("menu.html");
+          
+        });
+        </script>
+</head>
+<body style="margin: 0;">
+
+    
+    <div style="background-color: gray;height: 500px;width: 100%;" id="div1"></div>
+    <button id="first">Hi-Tech</button>
+
+    <div style="background-color: gray;height: 500px;width: 100%;margin-top: 50px;" id="div2"></div>
+    <button id="sec">second</button>
+
+    <div style="background-color: gray;height: 500px;width: 100%;margin-top: 50px;" id="div3"></div>
+    <button id="thi">third</button>
+    <div style="background-color: gray;height: 500px;width: 100%;margin-top: 50px;" id="div4"></div>
+    <button id="four">four</button>
+
+
+
+
+
+
+
+<div id="menu"></div>
+
+
+
+</body>
+</html>
